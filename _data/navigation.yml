@@ -1,0 +1,4 @@
+- name: Főoldal
+  link: /
+- name: "Ki vagyok?"
+  link: /about.html
