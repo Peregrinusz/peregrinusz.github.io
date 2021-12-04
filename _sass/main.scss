@@ -1,3 +1,13 @@
 .itt {
     display: none;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.post {
+    background-color: green;
+    padding: 10px;
+    min-width: 300px;
+    min-height: 200px;
+}
