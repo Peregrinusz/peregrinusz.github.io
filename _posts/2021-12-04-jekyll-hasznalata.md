@@ -1,14 +1,12 @@
 ---
 layout: post
 author: PaTa
-date: 2021-12-04
-img: /assets/images/jekyll.png
 title: "Készíts minőségi blogot egyszerűen 1/2: Jekyll használata"
 ---
-<div class="promenade">
-    <p>Ha nincs saját webtárhelyed vagy épp a WordPress helyett akarsz egy gyorsabb megoldást a Jekyll tartalomépítő rendszer a neked való választás. Igaz, a Jekyll nem teljesen grafikus és ismerni kell hozzá a HTML/CSS/JavaScript nyelveket alapszinten, sokkal könnyebben befolyásolhatod a weboldalad gyorsaságát. Jóllehet, többet kell tanulni, hogy valaki használhassa, de cserébe egy hatalmas előnyre tehetsz szert: Teljesen ingyenesen tudod publikálni a blogcikkeidet a Githubon keresztül.</p>
-    <img src="{{page.img}}">
-</div>
+<p>
+    Ha nincs saját webtárhelyed vagy épp a WordPress helyett akarsz egy gyorsabb megoldást, a Jekyll tartalomépítő rendszer neked való választás lehet. Igaz, a Jekyll nem teljesen grafikus és ismerni kell hozzá a HTML/CSS/JavaScript nyelveket alapszinten, sokkal könnyebben befolyásolhatod a weboldalad gyorsaságát. Jóllehet, többet kell tanulni, hogy valaki használhassa, de cserébe egy hatalmas előnyre tehetsz szert: Teljesen ingyenesen tudod publikálni a blogcikkeidet a Githubon keresztül.
+</p>
+
 <h2>A Jekyll előnyei a WordPress-szel szemben:</h2>
 <p>
     Én is úgy kezdtem a weboldal építést, mint sokan mások. Feltelepítettem a Wordpresst és elkezdtem kattintgatni. Később feltelepítettem a Divi témát és még szebben nézett ki a weboldalam. Viszont alig telt el egy év és egy kellemetlen problémával szembesültem: nem tudtam megváltoztatni a logót a fejlécmenüben. És mivel nem értettem a kódoláshoz nem tudtam orvosolni a problémát.

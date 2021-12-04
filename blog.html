@@ -8,8 +8,8 @@ title: Blog
 <div class="container">
     {% for post in site.posts %}
         <div class="post">
-            <h2><a href="{{post.url}}">{{post.title}}</h2>
-            <p>{{post.excrept}}</p>
+            <h2><a class="bloglink" href="{{post.url}}">{{post.title}}</a></h2>
+            <p>{{post.excerpt}}</p>
         </div>
     {% endfor %}
 </div>

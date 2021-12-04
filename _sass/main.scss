@@ -6,8 +6,10 @@
     flex-wrap: wrap;
 }
 .post {
-    background-color: green;
+    background-color: yellowgreen;
     padding: 10px;
-    min-width: 300px;
-    min-height: 200px;
+    max-width: 300px;
+}
+.bloglink {
+    color: darkgreen;
 }
