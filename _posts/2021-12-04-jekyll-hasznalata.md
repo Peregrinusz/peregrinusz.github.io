@@ -1,11 +1,16 @@
 ---
 layout: post
 author: PaTa
-title: "Készíts minőségi blogot egyszerűen 1/2: Jekyll használata"
+title: "Miért éppen a Jekyll?"
+pic: "/assets/images/jekyll.png"
+meta: "Ha nincs saját webtárhelyed vagy épp a WordPress helyett akarsz egy gyorsabb megoldást, a Jekyll tartalomépítő rendszer neked való választás lehet. Igaz, a Jekyll nem teljesen grafikus és ismerni kell hozzá a HTML/CSS/JavaScript nyelveket alapszinten, sokkal könnyebben befolyásolhatod a weboldalad gyorsaságát. Jóllehet, többet kell tanulni, hogy valaki használhassa, de cserébe egy hatalmas előnyre tehetsz szert: Teljesen ingyenesen tudod publikálni a blogcikkeidet a Githubon keresztül."
 ---
-<p>
-    Ha nincs saját webtárhelyed vagy épp a WordPress helyett akarsz egy gyorsabb megoldást, a Jekyll tartalomépítő rendszer neked való választás lehet. Igaz, a Jekyll nem teljesen grafikus és ismerni kell hozzá a HTML/CSS/JavaScript nyelveket alapszinten, sokkal könnyebben befolyásolhatod a weboldalad gyorsaságát. Jóllehet, többet kell tanulni, hogy valaki használhassa, de cserébe egy hatalmas előnyre tehetsz szert: Teljesen ingyenesen tudod publikálni a blogcikkeidet a Githubon keresztül.
-</p>
+<div class="promenade">
+    <p>
+        Ha nincs saját webtárhelyed vagy épp a WordPress helyett akarsz egy gyorsabb megoldást, a Jekyll tartalomépítő rendszer neked való választás lehet. Igaz, a Jekyll nem teljesen grafikus és ismerni kell hozzá a HTML/CSS/JavaScript nyelveket alapszinten, sokkal könnyebben befolyásolhatod a weboldalad gyorsaságát. Jóllehet, többet kell tanulni, hogy valaki használhassa, de cserébe egy hatalmas előnyre tehetsz szert: Teljesen ingyenesen tudod publikálni a blogcikkeidet a Githubon keresztül.
+    </p>
+    <img src="{{page.pic}}">
+</div>
 
 <h2>A Jekyll előnyei a WordPress-szel szemben:</h2>
 <p>
@@ -14,3 +19,5 @@ title: "Készíts minőségi blogot egyszerűen 1/2: Jekyll használata"
 <p>
     Hamar kiderült a számomra, hogy nem baj, ha megtanulok ezt azt a webfejlesztésről. Ezek után elkezdtem keresni azokat a megoldásokat, amik segítségével WP nélkül is boldogulok. Az alap HTML/CSS/JavaScript tudás elég ahhoz, hogy statikus weboldalakat készítsek. De mi van a blogcikkekkel. Akkoriban egy coaching praxis kiépítéséhez kellett a weboldal. Egy coach pedig nem árt, ha publikál néhány blogcikket, hiszen pont az eszéért szeretik. Na például itt tud jó szolgálatot tenni a Jekyll.
 </p>
+
+<h2></h2>
