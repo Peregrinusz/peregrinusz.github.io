@@ -7,7 +7,7 @@ title: Alkotók
     {%- for author in site.authors -%}
         <img src="{{ author.face }}" alt="{{ author.name }}">
         <li>
-            <h2>{{ author.name }} ({{ author.nickname }})</h2>
+            <h2><a href="{{ author.url }}">{{ author.name }} ({{ author.nickname }})</a></h2>
             <h3>{{ author.profession }}</h3>
             <p>{{ author.content | markdownify }}</p>
         </li>
