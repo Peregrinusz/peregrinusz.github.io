@@ -5,3 +5,11 @@ layout: default
 <h1>{{page.name}} ({{page.nickname}})</h1>
 <h2>{{page.profession}}</h2>
 <p>{{page.content}}</p>
+<h2>Cikkeim</h2>
+<ul>
+    {%- assign filtered_posts = site.posts | where: 'author', page.nickname -%}
+    {%- for post in filtered_posts -%}
+        <li><a href="{{post.url}}">{{post.title}}</a></li>
+        <p>{{post.meta}}</p>
+    {%- endfor -%}
+</ul>
