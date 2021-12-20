@@ -1,3 +1,42 @@
+//TAG
+a {
+    color: green;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background: darkgreen;
+    position: sticky;
+    top: 0;
+}
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1.2rem 1rem;
+}
+nav a:hover{
+    color: black;
+}
+//ID
+#logo {
+    width: 60px;
+}
+#icon {
+    float: left;
+    display: block;
+}
+//CLASS
 .itt {
     display: none;
 }
@@ -17,6 +56,49 @@
     display: flex;
 }
 
-a {
-    color: green;
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.menu li {
+    float: left;
+}
+.btn-mob + input[type="checkbox"] {
+    display: none;
+}
+.btn-mob + input[type="checkbox"]:checked ~ .menu li {
+    display: block;
+}
+.btn-mob {
+    width: 30px;
+    display: none;
+    float: right;
+    padding: 10px;
+    margin: 7px 5px;
+}
+.btn-mob span {
+    display: block;
+    height: 4px;
+    background: white;
+    margin: 0 0 5px 0;
+}
+.btn-mob span:last-of-type {
+    margin: 0;
+}
+//MediaQuery
+@media (max-width: 600px) {
+    .menu li{
+      display: none;
+      float: none;
+    }
+    .btn-mob {
+      display: block;
+    }  
+}
+@media (max-width: 280px) {
+    #icon {
+      display: none;
+    }
 }
