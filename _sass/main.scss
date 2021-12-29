@@ -2,10 +2,12 @@
 a {
     color: green;
 }
-
 body {
     margin: 0;
     padding: 0;
+}
+main {
+    margin: 0 10px;
 }
 nav {
     display: flex;
@@ -97,6 +99,11 @@ nav a:hover{
     .btn-mob {
       display: block;
     }  
+}
+@media (max-width: 566px) {
+    .promenade {
+        flex-direction: column-reverse;
+    }
 }
 @media (max-width: 280px) {
     #icon {
