@@ -1,0 +1,20 @@
+- name: "Weblap"
+  link:
+  pic:
+  des: "Van, hogy a nagy ugráshoz már csak egy kis segítség hiányzik. Ehhez tud segítséget nyújtani egy egyszerű „értékesítési” oldal."
+- name: "Blogmotor"
+  link:
+  pic:
+  des: "Nem elégszel meg egy egylapos weboldallal? Egy saját szöveges média platformra vágysz? Akkor neked egy blogra van szükséged, amihez a Jekyll egy kiváló megoldás."
+- name: "WordPress weboldal"
+  link:
+  pic:
+  des: "Szeretnéd te is kezelni a weboldaladat, időnként itt-ott változtatni a színeken? Esetleg nem engedheted meg még anyagilag, hogy egy külsős fejlesztő vigye fel a cikkeidet a blogra? A WordPress ideális kezdő weboldal építők számára! Nincs kódolás, nincs fejfájás! És a Divi témával professzionális kinézetet kaphat a weboldalad."
+- name: "Blogírás"
+  link:
+  pic:
+  des: "Ha tudod, hogy mit akarsz megosztani a világgal, de nincs időd/affinitásod/írói vénád, hogy szavakba öntsd, segítek. Neked csak a cikk vázlatát kell elkészítened nekem egy megadott sablon alapján és én a kurta vázlatot is terjedelmes és érdekfeszítő olvasmánnyá bővítem."
+- name: "Coaching"
+  link:
+  pic:
+  des: "Tetszik, amit eddig olvastál, de úgy érzed, hogy még nindcs meg az üzeneted? Nem probléma! Egy cirka egy délutánnyi idő alatt (kb. 2-3 óra) megtaláljuk a személyes miértedet, illetve egyéb elakadások esetén is segítek megtalálni a megoldást."
