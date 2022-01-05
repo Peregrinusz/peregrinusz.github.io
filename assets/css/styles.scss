@@ -1,3 +1,9 @@
 ---
 ---
+html {
+    background: url(https://peregrinusz.github.io/assets/images/felhok.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
 @import "main";
+@import "service";

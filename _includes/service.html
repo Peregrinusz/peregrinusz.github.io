@@ -1,0 +1,13 @@
+{%- for item in site.data.szolg -%}
+    <div class="serve-card">
+        <a href=""><img class="serve-pic" src="{{item.pic}}" alt="{{item.name}}"></a>
+        <div class="serve-txt">
+            <h3>
+                <a href="">{{item.name}}</a>
+            </h3>
+            <p>
+                {{item.des}}
+            </p>
+        </div>
+    </div>
+{%- endfor -%}

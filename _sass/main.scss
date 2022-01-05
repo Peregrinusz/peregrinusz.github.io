@@ -105,6 +105,17 @@ nav a:hover{
     .promenade {
         flex-direction: column-reverse;
     }
+    .serve-card {
+        flex-direction: column;
+    }
+    .serve-txt p {
+        text-align: center;
+    }
+}
+@media (min-width: 567px) {
+    .serve-pic {
+        border-right: solid 2px;
+    }
 }
 @media (max-width: 280px) {
     #icon {
