@@ -1,0 +1,7 @@
+#!/bin/bash
+echo $0;
+gem install jekyll bundler;
+bundle init;
+echo '' >> Gemfile; echo 'gem "jekyll"' >> Gemfile
+bundle;
+jekyll build;
