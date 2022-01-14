@@ -10,9 +10,9 @@ p {
     font-family: sans-serif;
 }
 
-@import "head";
-@import "foot";
-@import "mobil";
+@import "head.scss";
+@import "foot.scss";
+@import "mobil.scss";
 
 body {
     margin: 0;
