@@ -1,4 +1,9 @@
-body { margin: 0; padding: 0; background: url(https://peregrinusz.github.io/referencia/VK/assets/images/bg-matrix.png) no-repeat center; background-size: cover; position: relative; }
+@charset "UTF-8";
+h1 { font-family: 'Source Code Pro'; }
+
+h2 { font-family: 'Source Code Pro'; }
+
+p { font-family: sans-serif; }
 
 nav { display: flex; flex-direction: row-reverse; align-items: center; background: black; position: sticky; top: 0; }
 
@@ -6,15 +11,6 @@ nav::after { content: ""; clear: both; display: table; }
 
 nav a { display: block; text-decoration: none; color: #22a929; padding: 1.2rem 1.2rem; font-family: courier; font-weight: bold; }
 
-main { background: #FFF; max-width: 620px; margin: 0 auto; padding: 1px 40px; }
-
-h1 { font-family: 'Source Code Pro'; }
-
-h2 { font-family: 'Source Code Pro'; }
-
-p { font-family: sans-serif; }
-
-/* CLASSES */
 .menu { margin: 0 auto; padding: 0; list-style: none; text-align: center; }
 
 .menu li { float: left; }
@@ -31,18 +27,34 @@ p { font-family: sans-serif; }
 
 .btn-mob span:last-of-type { margin: 0; }
 
-.prom { display: flex; justify-content: space-around; padding: 0 20px; }
-
-.prom p { max-width: 400px; }
-
-/* ID */
 #logo { width: 60px; }
 
 #icon { float: left; display: block; margin-left: 2rem; }
 
-/*Media Query*/
+/* Lábléc stílusa */
+footer { margin: 0; background: rgba(25, 240, 0, 0.7); padding: 10px 40px; }
+
+footer * { margin: 0 auto; }
+
+.name-card { margin: 20px; display: flex; align-items: center; max-width: 495px; }
+
+.name-card ul { list-style-type: none; }
+
+.name-card a { color: black; font-family: 'courier'; font-weight: bold; }
+
+.name-card a:hover { font-style: italic; color: white; }
+
 @media (max-width: 680px) { .menu li { display: none; float: none; } .btn-mob { display: block; } .menu a:hover { background: rgba(255, 255, 255, 0.7); border-radius: 0; color: black; margin: 0; width: 250px; } }
 
-@media (max-width: 490px) { #icon { display: none; } .prom { flex-direction: column-reverse; } }
+@media (max-width: 490px) { footer { padding: 10px 30px; } footer div { min-width: 300px; } #icon { display: none; } .prom { flex-direction: column-reverse; } .name-card { flex-direction: column; margin: 20px 0; } }
+
+body { margin: 0; padding: 0; background: url(https://peregrinusz.github.io/referencia/VK/assets/images/bg-matrix.png) no-repeat center; background-size: cover; position: relative; }
+
+main { background: #FFF; max-width: 620px; margin: 0 auto; padding: 1px 40px; }
+
+/* CLASSES */
+.prom { display: flex; justify-content: space-around; padding: 0 20px; }
+
+.prom p { max-width: 400px; }
 
 /*# sourceMappingURL=styles.css.map */
