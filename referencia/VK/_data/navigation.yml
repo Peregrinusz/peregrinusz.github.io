@@ -1,0 +1,10 @@
+- name: Főoldal
+  link: /
+- name: "Ki vagyok?"
+  link: /about.html
+- name: Blog
+  link: /blog.html
+- name: Referencia
+  link: /ref.html
+- name: Szerzők
+  link: /staff.html

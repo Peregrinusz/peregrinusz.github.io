@@ -1,0 +1,48 @@
+body { margin: 0; padding: 0; background: url(https://peregrinusz.github.io/referencia/VK/assets/images/bg-matrix.png) no-repeat center; background-size: cover; position: relative; }
+
+nav { display: flex; flex-direction: row-reverse; align-items: center; background: black; position: sticky; top: 0; }
+
+nav::after { content: ""; clear: both; display: table; }
+
+nav a { display: block; text-decoration: none; color: #22a929; padding: 1.2rem 1.2rem; font-family: courier; font-weight: bold; }
+
+main { background: #FFF; max-width: 620px; margin: 0 auto; padding: 1px 40px; }
+
+h1 { font-family: 'Source Code Pro'; }
+
+h2 { font-family: 'Source Code Pro'; }
+
+p { font-family: sans-serif; }
+
+/* CLASSES */
+.menu { margin: 0 auto; padding: 0; list-style: none; text-align: center; }
+
+.menu li { float: left; }
+
+.menu a:hover { background: rgba(255, 255, 200, 0.7); text-decoration: underline; font-style: italic; border-radius: 100%; color: black; }
+
+.btn-mob + input[type="checkbox"] { display: none; }
+
+.btn-mob + input[type="checkbox"]:checked ~ .menu li { display: block; }
+
+.btn-mob { width: 30px; display: none; float: right; padding: 10px; margin: 7px 5px; }
+
+.btn-mob span { display: block; height: 4px; background: #22a929; margin: 0 0 5px 0; }
+
+.btn-mob span:last-of-type { margin: 0; }
+
+.prom { display: flex; justify-content: space-around; padding: 0 20px; }
+
+.prom p { max-width: 400px; }
+
+/* ID */
+#logo { width: 60px; }
+
+#icon { float: left; display: block; margin-left: 2rem; }
+
+/*Media Query*/
+@media (max-width: 680px) { .menu li { display: none; float: none; } .btn-mob { display: block; } .menu a:hover { background: rgba(255, 255, 255, 0.7); border-radius: 0; color: black; margin: 0; width: 250px; } }
+
+@media (max-width: 490px) { #icon { display: none; } .prom { flex-direction: column-reverse; } }
+
+/*# sourceMappingURL=styles.css.map */
