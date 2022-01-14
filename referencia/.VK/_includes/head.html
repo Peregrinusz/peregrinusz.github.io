@@ -6,7 +6,7 @@
     </label>
     <input id="mobil" type="checkbox">
     <ul class="menu">
-        {% for item in site.data.navigation %}
+        {% for item in site.data.nav %}
             {% if page.url == item.link %}
                 {% continue %}
             {% else %}
