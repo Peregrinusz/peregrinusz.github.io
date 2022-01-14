@@ -1,0 +1,69 @@
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: black;
+    position: sticky;
+    top: 0;
+}
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #22a929;
+    padding: 1.2rem 1.2rem;
+    font-family: courier;
+    font-weight: bold;
+}
+
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.menu li {
+    float: left;
+}
+.menu a:hover{
+    background: rgba(255, 255, 200, 0.7);
+    text-decoration: underline;
+    font-style: italic;
+    border-radius: 100%;
+    color: black;
+}
+.btn-mob + input[type="checkbox"] {
+    display: none;
+}
+.btn-mob + input[type="checkbox"]:checked ~ .menu li {
+    display: block;
+}  
+.btn-mob {
+    width: 30px;
+    display: none;
+    float: right;
+    padding: 10px;
+    margin: 7px 5px;
+}
+.btn-mob span {
+    display: block;
+    height: 4px;
+    background: #22a929;
+    margin: 0 0 5px 0;
+}
+.btn-mob span:last-of-type {
+    margin: 0;
+}
+
+#logo {
+    width: 60px;
+}
+#icon {
+    float: left;
+    display: block;
+    margin-left: 2rem;
+}
