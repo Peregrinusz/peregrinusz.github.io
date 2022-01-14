@@ -6,12 +6,16 @@
     </label>
     <input id="mobil" type="checkbox">
     <ul class="menu">
-        {% for item in site.data.navigation %}
-        <li>
-            <a href="{{ item.link }}"{% if page.url == item.link %} class="itt" {% endif %}>
-                {{ item.name }}
-            </a>
-        </li>
+        {% for item in site.data.PS-navigation %}
+            {% if page.url == item.link %}
+                {% continue %}
+            {% else %}
+                <li>
+                    <a href="{{ item.link }}">
+                        {{ item.name }}
+                    </a>
+                </li>            
+            {% endif %}        
         {% endfor %}
     </ul>
     <a id="icon" href="/index.html"><img src="/assets/images/PilgrimStudio-logo.webp" alt="Pilgrim Studio" id="logo"></a>

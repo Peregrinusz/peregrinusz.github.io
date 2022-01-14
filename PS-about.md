@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: PS-default
 title: "Ki vagyok?"
 ---
 <h1>{{page.title}}</h1>

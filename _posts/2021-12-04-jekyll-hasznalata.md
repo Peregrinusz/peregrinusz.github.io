@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: PS-post
 author: PaTa
 title: "Miért éppen a Jekyll?"
 pic: "/assets/images/jekyll01.png"
 alt: jekyll
 meta: "Ha nincs saját webtárhelyed vagy épp a WordPress helyett akarsz egy gyorsabb megoldást, a Jekyll tartalomépítő rendszer neked való választás lehet. Igaz, a Jekyll nem teljesen grafikus és ismerni kell hozzá a HTML/CSS/JavaScript nyelveket alapszinten, sokkal könnyebben befolyásolhatod a weboldalad gyorsaságát. Jóllehet, többet kell tanulni, hogy valaki használhassa, de cserébe egy hatalmas előnyre tehetsz szert: Teljesen ingyenesen tudod publikálni a blogcikkeidet a Githubon keresztül."
+mark: PS
 ---
 <div class="promenade">
     <p>{{page.meta}}</p>

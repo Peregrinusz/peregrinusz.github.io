@@ -7,16 +7,16 @@ defaults:
       path: ""
       type: "authors"
     values:
-      layout: "author"
+      layout: "PS-author"
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "PS-post"
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "PS-default"
 
 plugins:
   - jekyll-feed
