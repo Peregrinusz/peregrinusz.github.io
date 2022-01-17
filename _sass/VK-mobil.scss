@@ -1,0 +1,34 @@
+@media (max-width: 680px) {
+    .menu li{
+        display: none;
+        float: none;
+    }
+    .btn-mob {
+        display: block;
+    }
+    .menu a:hover{
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 0;
+        color: black;
+        margin: 0;
+        width: 250px;
+    }
+}
+@media (max-width: 490px) {
+    footer {
+        padding: 10px 30px;
+    }
+    footer div {
+        min-width: 300px;
+    }
+    #icon {
+        display: none;
+    }
+    .prom {
+        flex-direction: column-reverse;
+    }
+    .name-card {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+}

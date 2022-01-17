@@ -10,14 +10,17 @@ sgn: VK
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/VK-styles.css">
     <title>Vörös Kapszula - {{page.title}}</title>
 </head>
 <body>
     {%- include VK-head.html -%}
-    <main>
-        {{content}}
-    </main>
+    <div style="display: flex; justify-content: space-between;">
+        <main>
+            {{content}}
+        </main>
+        {%- include aside.html -%}
+    </div>
     {%- include VK-foot.html -%}
 </body>
 </html>
