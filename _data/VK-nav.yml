@@ -1,12 +1,12 @@
-- name: Főoldal
-  link: /
-- name: Blog
-  link: /VK-blog.html
+- name: "Főoldal"
+  link: /VK/VK-index.html
+- name: "Blog"
+  link: /VK/VK-blog.html
 - name: "Videótár"
-  link: /VK-video.html
-- name: Podcast
-  link: /VK-podcast.html
-- name: Itt kezdj!
-  link: /VK-start.html
-- name: Szerzők
-  link: /VK-staff.html
+  link: /VK/VK-video.html
+- name: "Podcast"
+  link: /VK/VK-podcast.html
+- name: "Itt kezdj!"
+  link: /VK/VK-start.html
+- name: "Szerzők"
+  link: /VK/VK-staff.html
