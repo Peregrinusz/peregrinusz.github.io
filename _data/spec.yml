@@ -1,6 +1,8 @@
 - alt: "Pilgrim Studio"
-  src: /assets/images/PilgrimStudio-logo.webp
-  sgn: PS
+  src: "/assets/images/PilgrimStudio-logo.webp"
+  sgn: "PS"
+  u: "/"
 - alt: "Vörös Kapszula"
-  src: /assets/images/VK-logo.png
-  sgn: VK
+  src: "/assets/images/VK-logo.png"
+  sgn: "VK"
+  u: "/VK-blog.html"

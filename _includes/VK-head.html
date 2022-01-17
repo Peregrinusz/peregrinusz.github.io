@@ -1,0 +1,24 @@
+<nav>
+    <label  for="mobil" class="btn-mob">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <input id="mobil" type="checkbox">
+    <ul class="menu">
+        {% for item in site.data.VK-nav %}
+            {% if page.url == item.link %}
+                {% continue %}
+            {% else %}
+                <li>
+                    <a href="{{ item.link }}">
+                        {{ item.name }}
+                    </a>
+                </li>            
+            {% endif %}        
+        {% endfor %}
+    </ul>
+    <a id="icon" href="/index.html">
+        <img src="/assets/images/VK-logo.png" alt="Vörös Kapszula" id="logo">
+    </a>
+</nav>

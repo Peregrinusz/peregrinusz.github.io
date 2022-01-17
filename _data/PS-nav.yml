@@ -1,0 +1,10 @@
+- name: Főoldal
+  link: /
+- name: "Ki vagyok?"
+  link: /PS-about.html
+- name: Blog
+  link: /PS-blog.html
+- name: Referencia
+  link: /PS-ref.html
+- name: Szerzők
+  link: /staff.html
