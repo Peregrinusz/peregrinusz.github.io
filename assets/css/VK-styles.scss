@@ -1,0 +1,40 @@
+---
+---
+h1 {
+    font-family: 'Source Code Pro';
+}
+h2 {
+    font-family: 'Source Code Pro';
+}
+p {
+    font-family: sans-serif;
+}
+
+@import "VK-head.scss";
+@import "VK-foot.scss";
+@import "VK-mobil.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/assets/images/VK/bg-matrix.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+main {
+    background: #FFF;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 1px 40px;
+}
+
+/* CLASSES */
+.prom {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+.prom p {
+    max-width: 400px;
+}
