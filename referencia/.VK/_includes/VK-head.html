@@ -6,7 +6,6 @@
     </label>
     <input id="mobil" type="checkbox">
     <ul class="menu">
-        
         {% for item in site.data.VK-nav %}
             {% if page.url == item.link %}
                 {% continue %}
@@ -20,10 +19,6 @@
         {% endfor %}
     </ul>
     <a id="icon" href="/index.html">
-        {%- for item in site.data.spec -%}
-            {%- if item.sgn == page.sgn -%}
-                <img src="{{ item.src }}" alt="{{ item.alt }}" id="logo">
-            {%- endif -%}
-        {%- endfor -%}
+        <img src="/assets/images/VK-logo.png" alt="Vörös Kapszula" id="logo">
     </a>
 </nav>
