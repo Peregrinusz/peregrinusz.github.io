@@ -1,11 +1,4 @@
 //TAG
-a {
-    color: green;
-}
-body {
-    margin: 0;
-    padding: 0;
-}
 .main {
     margin: 0 10px;
 }
@@ -22,15 +15,6 @@ nav::after {
     clear: both;
     display: table;
 }
-nav a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 1.2rem 1rem;
-}
-nav a:hover{
-    color: black;
-}
 //ID
 #logo {
     width: 60px;
@@ -40,9 +24,6 @@ nav a:hover{
     display: block;
 }
 //CLASS
-.itt {
-    display: none;
-}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -54,71 +35,22 @@ nav a:hover{
     height: fit-content;
     margin: 5px auto;
 }
-.bloglink {
-    color: darkgreen;
-}
 .promenade {
     display: flex;
 }
-.menu {
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-.menu li {
-    float: left;
-}
-.btn-mob + input[type="checkbox"] {
-    display: none;
-}
-.btn-mob + input[type="checkbox"]:checked ~ .menu li {
-    display: block;
-}
-.btn-mob {
-    width: 30px;
-    display: none;
-    float: right;
-    padding: 10px;
-    margin: 7px 5px;
-}
-.btn-mob span {
-    display: block;
-    height: 4px;
+.szolg {
     background: white;
-    margin: 0 0 5px 0;
+    margin: 0 -10px;
+    padding: 15px 25px;
 }
-.btn-mob span:last-of-type {
-    margin: 0;
+.corpus {
+    display: flex;
 }
-//MediaQuery
-@media (max-width: 600px) {
-    .menu li{
-      display: none;
-      float: none;
-    }
-    .btn-mob {
-      display: block;
-    }  
+.corpus div {
+    width: 61.8%;
 }
-@media (max-width: 566px) {
-    .promenade {
-        flex-direction: column-reverse;
-    }
-    .serve-card {
-        flex-direction: column;
-    }
-    .serve-txt p {
-        text-align: center;
-    }
-}
-@media (min-width: 567px) {
-    .serve-pic {
-        border-right: solid 2px;
-    }
-}
-@media (max-width: 280px) {
-    #icon {
-      display: none;
-    }
+.corpus img {
+    width: 38.2%;
+    height: 100%;
+    margin-left: 10px;
 }

@@ -1,0 +1,31 @@
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.menu li {
+    float: left;
+}
+.btn-mob + input[type="checkbox"] {
+    display: none;
+}
+.btn-mob + input[type="checkbox"]:checked ~ .menu li {
+    display: block;
+}
+.btn-mob {
+    width: 30px;
+    display: none;
+    float: right;
+    padding: 10px;
+    margin: 7px 5px;
+}
+.btn-mob span {
+    display: block;
+    height: 4px;
+    background: white;
+    margin: 0 0 5px 0;
+}
+.btn-mob span:last-of-type {
+    margin: 0;
+}
