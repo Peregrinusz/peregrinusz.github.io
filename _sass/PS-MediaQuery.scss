@@ -1,0 +1,40 @@
+//MediaQuery
+@media (max-width: 600px) {
+    .menu li{
+      display: none;
+      float: none;
+    }
+    .btn-mob {
+      display: block;
+    }  
+}
+@media (max-width: 566px) {
+    .promenade {
+        flex-direction: column-reverse;
+    }
+    .serve-card {
+        flex-direction: column;
+    }
+    .serve-txt p {
+        text-align: center;
+    }
+    .corpus {
+        flex-direction: column-reverse;
+    }
+    .corpus img {
+        width: 100%;
+    }
+    .corpus div {
+        width: 100%;
+    }
+}
+@media (min-width: 567px) {
+    .serve-pic {
+        border-right: solid 2px;
+    }
+}
+@media (max-width: 280px) {
+    #icon {
+      display: none;
+    }
+}
