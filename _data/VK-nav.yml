@@ -1,12 +1,12 @@
 - name: "Főoldal"
-  link: /VK/
+  link: /VorosKapszula/
 - name: "Blog"
-  link: /VK/VK-blog.html
+  link: /VorosKapszula/VK-blog.html
 - name: "Videótár"
-  link: /VK/VK-video.html
+  link: /VorosKapszula/VK-video.html
 - name: "Podcast"
-  link: /VK/VK-podcast.html
+  link: /VorosKapszula/VK-podcast.html
 - name: "Itt kezdj!"
-  link: /VK/VK-start.html
+  link: /VorosKapszula/VK-start.html
 - name: "Szerzők"
-  link: /VK/VK-staff.html
+  link: /VorosKapszula/VK-staff.html
