@@ -5,5 +5,12 @@ html {
     background-size: cover;
     position: relative;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 @import "PS-main.scss";
 @import "PS-service.scss";
+@import "PS-Tipography.scss";
+@import "PS-Menu.scss";
+@import "PS-MediaQuery.scss";
