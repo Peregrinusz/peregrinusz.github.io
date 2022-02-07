@@ -1,0 +1,87 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/images/AH/AH-Head-tr.jpeg);
+    background-size: initial;
+    background-position-x: -35px;
+    background-repeat: no-repeat;
+}
+header * {
+    color: #FFF;
+}
+main {
+    background-color: white;
+}
+ol {
+    margin: 0 80px;
+    padding: 20px;
+    line-height: 1.5;
+}
+.turn {
+    list-style-type: upper-roman;
+    line-height: 2;
+    font-size: 1.3rem;
+    padding: 20px 50px;
+    color: #090;
+}
+#psc {
+    list-style-type: disc;
+}
+ol a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+ol a:hover {
+    color: rgb(255, 150, 0);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.post {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: yellowgreen;
+    padding: 10px;
+    height: fit-content;
+    margin: 10px;
+}
+.post a {
+    height: 255px;
+}
+.blogpic {
+    height: 100%;
+}
+.bl-txt h2 {
+    padding: 0 30px;
+    line-height: 1;
+}
+.bl-txt p {
+    margin: 0 15px;
+    font-size: 14px;
+    letter-spacing: 0.25rem;
+}
+.bloglink {
+    color: darkgreen;
+    font-size: 25px;
+    letter-spacing: 0.6px;
+}
+
+#foot {
+    list-style-type: none;
+    background: linear-gradient(65deg, #FF0 40%, rgba(255, 255, 0, 0.3) 100%);
+    padding: 32px 40px;
+    margin: 0;
+}
+#adress:before {
+    font-weight: bold;
+    content: "Cím: ";
+}
+#soonest:before {
+    font-weight: bold;
+    content: "Következő alkalom: ";
+}
+

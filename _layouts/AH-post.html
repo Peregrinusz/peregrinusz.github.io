@@ -1,0 +1,15 @@
+---
+layout: AH-main
+---
+<p>
+    {{page.date | date_to_string}}
+    {%- assign author = site.authors | where: 'nickname', page.author | first -%}
+    {%- if author -%}
+        - <a href="{{author.url}}">{{author.nickname}}</a>
+    {%- endif -%}
+</p>
+<p id="meta">{{page.meta}}</p>
+{{content}}
+<script>
+    document.getElementById('meta').style.display="none";
+</script>

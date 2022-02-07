@@ -1,0 +1,67 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    width: -moz-available;
+    padding: 0;
+}
+nav li {
+    padding: 10px;
+    color: #FF0;
+}
+nav a {
+    display: block;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Mali";
+    font-size: 22px;
+}
+nav li:hover{
+    background: #FF0;
+    color: #000;
+}
+  
+.active {
+    background: #FFF;
+    color: #000;
+}
+.active:hover {
+    background: #FFF;
+    color: #000;
+}
+
+.btn-mob + input[type="checkbox"] {
+    display: none;
+}
+.btn-mob + input[type="checkbox"]:checked ~ .men a {
+    display: block;
+}
+.btn-mob {
+    width: 30px;
+    display: none;
+    float: right;
+    padding: 10px;
+    margin: 7px 5px;
+}
+.btn-mob span {
+    display: block;
+    height: 4px;
+    background: #FF0;
+    margin: 0 0 5px 0;
+}
+.btn-mob span:last-of-type {
+    margin: 0;
+}

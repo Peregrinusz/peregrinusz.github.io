@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://peregrinusz.github.io/assets/images/AH//Dharmacakra.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/AH-styles.css">
+    <title>{{ page.nama }}</title>
+</head>
+<body>
+    <header>
+        <div id="H-promo">
+            <ul>
+                <li>
+                    <h3>Miért utáljuk egymást annyira?</h3>
+                </li>
+                <li>
+                    <h3>Miért vagyunk annyira magányosak?</h3>
+                </li>
+                <li>
+                    <h3>Miért lettünk ennyire közömbösek?</h3>
+                </li>
+            </ul>
+        </div>
+        <h2>Hogyan szabadulhatunk meg az erőszaktól és a haragtól?...</h2>
+    </header>
+    <!-- Menü elem -->
+    {% include AH-nav.html %}
+    <!-- Tartalom -->
+    <main>
+        <h1>{{ page.nama }}</h1>
+        {{ content }}
+    </main>
+    <!-- Lábléc -->
+    {% include AH-locate.html %}
+    {% include AH-foot.html %}
+</body>
+</html>

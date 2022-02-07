@@ -1,0 +1,34 @@
+/* Lábléc stílusa */
+footer {
+    margin: 0;
+    background: rgba(25, 240, 0, 0.7);
+    padding: 10px 40px;
+}
+footer * {
+    margin: 0 auto;
+}
+h2 {
+    padding: 30px;
+    font-size: 2rem;
+    font-family: "Mali";
+}
+
+.name-card {
+    margin: 0 20px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    max-width: 495px;
+}
+.name-card ul {
+    list-style-type: none;
+}
+.name-card a {
+    color: black;
+    font-family: 'courier';
+    font-weight: bold;  
+}
+.name-card a:hover {
+    font-style: italic;
+    color: white;
+}

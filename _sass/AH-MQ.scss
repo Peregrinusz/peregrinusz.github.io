@@ -1,0 +1,106 @@
+@media (max-width: 800px) {
+    h2 {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    //header
+    header {
+        background-position-y: -50px;
+    }
+    header h2 {
+        font-size: 1.5rem;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    #H-promo ul {
+        font-size: 18px;
+        letter-spacing: 0.3em;
+    }
+    #H-promo img {
+        display: none;
+    }
+    //main
+    main h2 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 980px) {
+    .promenade img {
+        height: 380px;
+    }
+}
+@media (max-width: 510px) {
+    header {
+        background-image: url(/assets/img/AH-Head-tr-mob.jpeg);
+        background-position-y: -5px;
+    }
+    .promenade {
+        flex-direction: column;
+    }
+    .promenade img {
+        width: 330px;
+        margin: 5px auto;
+    }
+    .promenade p {
+        font-size: 1rem;
+        line-height: 20px;
+        letter-spacing: 7px;
+        width: 90%;
+        margin: 0 30px;
+    }
+    #H-promo ul {
+        font-size: 12px;
+    }
+    #H-promo h2 {
+        font-size: 14px;
+    }
+    .men a{
+        display: none;
+        float: none;
+    }
+    .btn-mob {
+        display: block;
+    }
+    .men {
+        flex-direction: column;
+    }
+    #IV {
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    main h2 {
+        font-size: 1.5rem;
+    }
+    main h3 {
+        font-size: 1.3rem;
+    }
+    main ol {
+        margin-left: 50px;
+    }
+    .map {
+        border: 0;
+        height: 350px;
+    }
+    .name-card {
+        flex-direction: column;
+    }
+    .name-card a {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .post p {
+        font-size: 14px;
+        letter-spacing: 2.5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

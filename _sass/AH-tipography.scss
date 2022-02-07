@@ -1,0 +1,54 @@
+h1 {
+    margin: 0;
+    padding: 30px 5px;
+    text-align: center;
+    font-family: 'Mali', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 0.4rem;
+}
+main h2 {
+    margin: 0;
+    font-style: italic;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+}
+main h3 {
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+main h4 {
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+main ul {
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Mali';
+    font-style: italic;
+    margin-left: 45px;
+}
+header p {
+    margin: 5px 10px;
+    font-style: normal;
+    padding: 5px;
+}
+p {
+    margin: 0 50px;
+    padding: 0.5rem 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+    letter-spacing: 0.3rem;
+    font-size: 18px;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+.men li {
+    text-align: center;
+}

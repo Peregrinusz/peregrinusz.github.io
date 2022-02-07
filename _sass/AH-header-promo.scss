@@ -1,0 +1,20 @@
+#H-promo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+header h2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+#H-promo img {
+    width: 400px;
+}
+#H-promo ul {
+	line-height: 1.7;
+    font-size: 24px;
+    margin: 0px;
+    letter-spacing: 7px;
+}

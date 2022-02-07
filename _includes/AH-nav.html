@@ -1,0 +1,17 @@
+<nav>
+    <label  for="mobil" class="btn-mob">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <input id="mobil" type="checkbox">
+    <ul class="men">
+        {%- for item in site.data.AH-nav -%}
+            <a href="{{ item.link }}">
+                <li class="{%- if page.url == item.link -%} active{%- endif -%}">
+                    {{ item.nama }}
+                </li>
+            </a>
+        {%- endfor -%}
+    </ul>
+</nav>
