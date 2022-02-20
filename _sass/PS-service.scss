@@ -12,7 +12,6 @@
 }
 .serve-pic {
     width: 150px;
-    margin: 10px;
     padding: 5px 20px 5px 10px;
 }
 .serve-txt {
@@ -29,4 +28,9 @@
     letter-spacing: 0.5px;
     margin-bottom: 18px;
     text-align: center;
+}
+
+.serve-card img {
+    box-shadow: none;
+    margin: 10px;
 }
