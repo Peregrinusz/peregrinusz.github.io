@@ -1,6 +1,13 @@
 //TAG
 .main {
-    margin: 0 10px;
+    margin: 0;
+    background: wheat;
+    padding: 10px;
+}
+
+.main img {
+    display: block;
+    margin: 15px auto;
 }
 nav {
     display: flex;
