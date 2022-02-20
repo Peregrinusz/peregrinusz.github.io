@@ -1,0 +1,13 @@
+<div class="reff">
+    {%- for ref in site.data.PS-ref -%}
+        <div class="ref-card">
+            <a href="{{ ref.link }}">
+                <img src="{{ ref.pict }}" alt="{{ ref.palt }}">
+            </a>
+            <a href="{{ ref.link }}">
+                <h3>{{ ref.nama }}</h3>
+            </a>
+            <p>{{ ref.meta }}</p>
+        </div>
+    {%- endfor -%}
+</div>
