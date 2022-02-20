@@ -10,7 +10,7 @@ title: Blog cikkek
     {% for post in site.posts %}
         {%- if post.mark == "PS" -%}
             <div class="post">
-                <h2><a class="bloglink" href="{{post.url}}">{{post.title}}</a></h2>
+                <h2><a class="bloglink" href="{{post.url}}">{{post.nama}}</a></h2>
                 <a href="{{post.url}}">
                     <img class="blogpic" src="{{post.pic}}" alt="{{post.alt}}">
                 </a>
