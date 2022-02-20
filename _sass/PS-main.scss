@@ -8,6 +8,11 @@
 .main img {
     display: block;
     margin: 15px auto;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.post img {
+    box-shadow: none;
 }
 nav {
     display: flex;
@@ -37,6 +42,7 @@ nav::after {
 }
 .post {
     background-color: yellowgreen;
+    box-shadow: 10px 10px 5px grey;
     padding: 10px;
     max-width: 300px;
     height: fit-content;
