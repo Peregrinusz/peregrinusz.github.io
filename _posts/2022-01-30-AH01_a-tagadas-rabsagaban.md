@@ -31,31 +31,11 @@ Felismerte, hogy az emberek 5 fejlődési szakaszon mennek át, amikor világuk 
 
 
 <ul id="psc" class="turn">
-    <li>
-        <a href="#tagad">
-            <strong>Tagadás</strong>
-        </a>
-    </li>
-    <li>
-        <a href="#harag">
-            <strong>Harag</strong>
-        </a>
-    </li>
-    <li>
-        <a href="#alku">
-            <strong>Megalkuvás</strong>
-        </a>
-    </li>
-    <li>
-        <a href="#depi">
-            <strong>Bánkódás</strong>
-        </a>
-    </li>
-    <li>
-        <a href="#elfogad">
-            <strong>Elfogadás</strong>
-        </a>
-    </li>
+    <li><a href="#tagad"><strong>Tagadás</strong></a></li>
+    <li><a href="#harag"><strong>Harag</strong></a></li>
+    <li><a href="#alku"><strong>Megalkuvás</strong></a></li>
+    <li><a href="#depi"><strong>Bánkódás</strong></a></li>
+    <li><a href="#elfogad"><strong>Elfogadás</strong></a></li>
 </ul>
 
 Ez a felfedezése pont kapóra jön számunkra, hiszen ezáltal mélyebben megérthetjük az erőszak természetét.
